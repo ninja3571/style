@@ -1,0 +1,101 @@
+body{
+    margin: 0px;
+    background-color: #595974;
+    overflow-y: scroll;
+}
+
+/* styl komórek */
+.div{
+    background-color: blanchedalmond;
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px 35%;
+    border-radius: 10px;
+}
+
+/* kropki stylu (reszta w app.js) */
+.falaa{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin: 0px 3.5px ;
+    border-radius: 100%;
+}
+
+@keyframes falanga {
+    0%{background-color:red; top:12.5%;}
+    50%{background-color:blue; top:7%;}
+    100%{background-color:red; top:12.5%;}
+}
+
+/* kolorowa ramka */
+#rama{
+    overflow: hidden;
+    align-items: center;
+}
+
+#kolor{
+    background: linear-gradient(#00ccff, #d500f9);
+    width: 100px;
+    height: 600px;
+    animation: rot 4s linear infinite;
+    inset: 5px;
+}
+
+#wnetrze{
+    position: absolute;
+    background-color: blanchedalmond;
+    height: 190px;
+    width: 490px;   
+    border-radius: 10px;
+}
+
+@keyframes rot {
+    from{rotate: 0deg;}
+    to{rotate: 360deg;}
+}
+
+/* zaznaczenie opcji */
+#zaznaczenie{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    box-shadow: 0px 0px 30px #00ccff inset;
+    align-items: center;
+    justify-content: center;
+}
+
+/* podswietlanie tła wokół opcji */
+#swiec{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    animation: rozz 3s linear infinite;
+    background:radial-gradient(purple, #00ccff)
+}
+
+@keyframes rozz{
+    0%{box-shadow: 0px 0px 5px #d500f9;}
+    50%{box-shadow: 0px 0px 30px #d500f9;}
+    100%{box-shadow: 0px 0px 5px #d500f9;}
+}
+
+@media screen and (max-width:2000px) {
+    #media{background-color: aquamarine;}
+}
+@media screen and (max-width:1750px){
+    #media{background-color: crimson;}
+}
+@media screen and (max-width:1500px){
+    #media{background-color: darkorchid;}
+}
+@media screen and (max-width:1250px){
+    #media{background-color: crimson;}
+}
+@media screen and (max-width:1000px){
+    #media{background-color: aquamarine;}
+}

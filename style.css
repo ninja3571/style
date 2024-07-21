@@ -100,3 +100,54 @@ body{
 @media screen and (max-width:1000px){
     #media{background-color: aquamarine;}
 }
+
+/* maska */
+#maska{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/108/140/869/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg);
+    mask-image: linear-gradient(transparent, white);
+    border: 1px solid lime;
+}
+
+/* kursor */
+#cursor{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.kursory{
+    height: 98px;
+    width: 98px;
+    border: 1px solid black;
+}
+
+#grab{
+    cursor: grab;
+}
+#move{
+    cursor:move
+}
+#none{
+    cursor: none;
+}
+#pointer{
+    cursor: pointer;
+}
+#progress{
+    cursor: progress;
+}
+#grabbing{
+    cursor: grabbing;
+}
+#wait{
+    cursor: wait;
+}
+#crosshair{
+    cursor: crosshair;
+}
+#zoom_in{
+    cursor: zoom-in;
+}
+#zoom_out{
+    cursor: zoom-out;
+}

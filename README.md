@@ -12,3 +12,4 @@ PomysŁy do zrobienia:
 Poczytać o:
 
 > > accent-color
+> > znaczenie kolorów

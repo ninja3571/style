@@ -26,9 +26,9 @@ body{
 }
 
 @keyframes falanga {
-    0%{background-color:red; top:12.5%;}
-    50%{background-color:blue; top:7%;}
-    100%{background-color:red; top:12.5%;}
+    0%{background-color:red; top:16.5%;}
+    50%{background-color:blue; top:11%;}
+    100%{background-color:red; top:16.5%;}
 }
 
 /* kolorowa ramka */
@@ -150,4 +150,12 @@ body{
 }
 #zoom_out{
     cursor: zoom-out;
+}
+
+/* odnośniki */
+a:hover{
+    color: orange;
+}
+a{
+    color: blue;
 }

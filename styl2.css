@@ -1,0 +1,72 @@
+body{
+    margin: 0px;
+    background-color: #595974;
+}
+
+#main{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#cube{
+    width: 40%;
+    height: 50%;
+    position: absolute;
+    top: 15vh;
+    left: 30%;
+    background-color: black;
+    box-sizing: content-box;
+}
+
+.bok{
+    width: 12%;
+    height: 20%;
+}
+
+/* podawane miejsca od pozycji startowej */
+/* tyl-lewo */
+#b1{
+    background: radial-gradient(rgb(0, 252, 0), rgb(9, 90, 9));
+    position:absolute;
+    top: 23vh;
+    left: 40%;
+    transform: rotate3d(-15, 45, -7, 45deg);
+}
+
+/* tyl-prawo */
+#b2{
+  
+    background: radial-gradient(rgb(197, 252, 0), rgb(75, 90, 9));
+    position:absolute;
+    top: 23vh;
+    left:48.5%;
+    transform: rotate3d(15, 45, 7, 45deg);
+}
+
+/* przod-prawo */
+#b3{
+    background: radial-gradient(rgb(0, 252, 0), rgb(9, 90, 9));
+    position:absolute;
+    top: 25vh;
+    left:48.5%;
+    transform: rotate3d(-15, 45, -7, 45deg);  
+}
+
+/* przod-lewo */
+#b4{
+    background: radial-gradient(rgb(197, 252, 0), rgb(75, 90, 9));
+    position:absolute;
+    top: 25vh;
+    left: 40%;
+    transform: rotate3d(15, 45, 7, 45deg);
+}
+
+/* gora */
+#b5{
+    background: radial-gradient(rgb(0, 252, 0), rgb(9, 90, 9));
+    position: absolute;
+    top: 19.5vh;
+    left: 44%;
+    transform: rotate3d(25, 55, 75, 220deg);
+}

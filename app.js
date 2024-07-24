@@ -4,7 +4,7 @@ function punkty(){
         kropek.classList.add('falaa')
         kropek.style.position='absolute'
 
-        kropek.style.top='12.5%'
+        kropek.style.top='16.5%'
         kropek.style.left=36.5+2*i+"%"
 
         kropek.style.animation='falanga 1.5s '+ i/10 +'s infinite';

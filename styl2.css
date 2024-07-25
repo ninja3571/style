@@ -10,63 +10,54 @@ body{
 }
 
 #cube{
-    width: 40%;
-    height: 50%;
+    width: 800px;
+    height: 500px;
     position: absolute;
     top: 15vh;
     left: 30%;
-    background-color: black;
     box-sizing: content-box;
+    transform: rotate3d(0, 90, 0, 180deg);
+    animation: obroty 8s linear infinite;
 }
 
 .bok{
-    width: 12%;
-    height: 20%;
+    width: 100px;
+    height: 100px;
 }
 
 /* podawane miejsca od pozycji startowej */
-/* tyl-lewo */
+
+/* przod-prawo */
 #b1{
     background: radial-gradient(rgb(0, 252, 0), rgb(9, 90, 9));
     position:absolute;
-    top: 23vh;
-    left: 40%;
-    transform: rotate3d(-15, 45, -7, 45deg);
-}
-
-/* tyl-prawo */
-#b2{
-  
-    background: radial-gradient(rgb(197, 252, 0), rgb(75, 90, 9));
-    position:absolute;
-    top: 23vh;
-    left:48.5%;
-    transform: rotate3d(15, 45, 7, 45deg);
-}
-
-/* przod-prawo */
-#b3{
-    background: radial-gradient(rgb(0, 252, 0), rgb(9, 90, 9));
-    position:absolute;
     top: 25vh;
-    left:48.5%;
-    transform: rotate3d(-15, 45, -7, 45deg);  
+    left:49%;
+    transform: rotate3d(-15, 45, -7, 45deg);
+
 }
 
 /* przod-lewo */
-#b4{
+#b2{
     background: radial-gradient(rgb(197, 252, 0), rgb(75, 90, 9));
     position:absolute;
     top: 25vh;
     left: 40%;
     transform: rotate3d(15, 45, 7, 45deg);
+
 }
 
 /* gora */
-#b5{
-    background: radial-gradient(rgb(0, 252, 0), rgb(9, 90, 9));
+#b3{
+    background: radial-gradient(rgb(0, 193, 252), rgb(9, 89, 163));
     position: absolute;
-    top: 19.5vh;
-    left: 44%;
-    transform: rotate3d(25, 55, 75, 220deg);
+    top: 19.2vh;
+    left: 43.8%;
+    transform: rotate3d(24, 55, 75, 215deg);
+    width: 110px;
+}
+
+@keyframes obroty{
+    0%{transform: rotate3d(0, 90, 0, 180deg);}
+    100%{transform: rotate3d(0, 90, 0, 540deg)}
 }

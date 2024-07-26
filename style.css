@@ -106,6 +106,7 @@ body{
     background-image: url(https://c4.wallpaperflare.com/wallpaper/108/140/869/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg);
     mask-image: linear-gradient(white, transparent);
     border: 1px solid lime;
+    color: white;
 }
 
 /* kursor */
@@ -167,4 +168,27 @@ a{
     flex-direction: column;
     text-align: center;
     justify-content: center;
+}
+
+/* multi columns */
+#columns{
+    column-count: 3;
+    column-rule: 2px dashed darkblue;
+    display: block;
+}
+
+/* offset */
+#offset{
+    display: block;
+    background-color: #d500f9;
+    border-radius: 4px 10px 10px 4px;
+    height: 20px;
+    width: 40px;
+    offset: path('M0,70 C50 -20 75 120 150 70 C50 20 75 120 0 70');
+    animation: ruch 5s infinite linear;
+}
+
+@keyframes ruch{
+    0%{offset-distance: 0%;}
+    100%{offset-distance: 100%;}
 }

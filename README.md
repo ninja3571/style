@@ -1,15 +1,1 @@
-PomysŁy do zrobienia:
-
-> mask\*
-> offset
-> outline
-> quotes
-> resize
-> order
-> cursor\*
-> clip
-
-Poczytać o:
-
-> > accent-color
-> > znaczenie kolorów
+Projekt z różnymi możliwościami CSS

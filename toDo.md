@@ -1,12 +1,12 @@
 PomysŁy:
 
-> mask*\_/
+> mask\_/
 > offset
 > outline
 > quotes
-> resize
+> resize\_/
 > order
-> cursor*\_/
+> cursor\_/
 > clip
 
 Poczytać o:

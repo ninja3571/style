@@ -159,3 +159,12 @@ a:hover{
 a{
     color: blue;
 }
+
+/* resize */
+#ress{
+    resize: both;
+    overflow: auto;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}

@@ -1,19 +1,15 @@
 PomysŁy:
 
-> mask
+> mask _
 > offset
 > outline
 > quotes
 > resize
 > order
-> cursor
+> cursor _
 > clip
 
 Poczytać o:
 
 > > accent-color
 > > znaczenie kolorów
-
-ZRobioNe:
-<mask>
-<cursor>

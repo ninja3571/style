@@ -18,10 +18,8 @@ function gora(){
     var y = document.getElementById('yy').value
     var z = document.getElementById('zz').value
     var angle = document.getElementById('angle').value
-    var top = document.getElementById("top").value
-    var left = document.getElementById("left").value
 
-    var gora=document.getElementById("b6")
+    var bok=document.getElementById("bok")
     if(x=="") {
         x=0
     }
@@ -35,14 +33,6 @@ function gora(){
         angle=0
     }
 
-    if(top!=""){
-        gora.style.top=top+"vh"
-    }
-    if(left!=""){
-        gora.style.left=left+'%'
-    }
-
-    gora.style.background='radial-gradient(rgb(252, 172, 0), rgb(163, 122, 9))'
-    gora.style.transform='rotate3d('+x+', '+y+', '+z+', '+angle+'deg'+')'
-    console.log(x,y,z,angle,'deg')
+    bok.style.transform='rotate3d('+x+', '+y+', '+z+', '+angle+'deg'+')'
+    console.log(x,y,z,angle+'deg')
 }

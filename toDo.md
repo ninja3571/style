@@ -1,5 +1,7 @@
 PomysŁy:
 
+CSS:
+
 > media\_/
 > mask\_/
 > quotes
@@ -9,6 +11,14 @@ PomysŁy:
 > cursor\_/
 > clip
 > multiple columns\_/
+> filter
+> aspect-ratio
+> border-image
+> mix-blend-mode
+
+HTML:
+
+> map
 
 Poczytać o:
 

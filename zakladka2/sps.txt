@@ -4,3 +4,4 @@ CSS:
 
 Co Poczytania o: 
  - chroma <- zmienia rodzaje kolorów(rgb->hsl itp)
+        http://gka.github.io/chroma.js

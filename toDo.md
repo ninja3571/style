@@ -18,7 +18,7 @@ CSS:
 
 HTML:
 
-> map
+> map\_/
 
 Poczytać o:
 

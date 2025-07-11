@@ -1,0 +1,6 @@
+CSS:
+ - :root  <- zmienne globalne(automatyzacja - wystarczy 1 zmienić) 
+
+
+Co Poczytania o: 
+ - chroma <- zmienia rodzaje kolorów(rgb->hsl itp)

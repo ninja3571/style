@@ -1,11 +1,13 @@
-body{
+/* DD.MM.2024 */
+
+body {
     margin: 0px;
     background-color: #595974;
     overflow-y: scroll;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-.div{
+.div {
     background-color: blanchedalmond;
     height: 200px;
     width: 500px;
@@ -17,27 +19,38 @@ body{
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-.falaa{
+.falaa {
     width: 20px;
     height: 20px;
     background-color: red;
-    margin: 0px 3.5px ;
+    margin: 0px 3.5px;
     border-radius: 100%;
 }
 
 @keyframes falanga {
-    0%{background-color:red; top:16.5%;}
-    50%{background-color:blue; top:11%;}
-    100%{background-color:red; top:16.5%;}
+    0% {
+        background-color: red;
+        top: 16.5%;
+    }
+
+    50% {
+        background-color: blue;
+        top: 11%;
+    }
+
+    100% {
+        background-color: red;
+        top: 16.5%;
+    }
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-#rama{
+#rama {
     overflow: hidden;
     align-items: center;
 }
 
-#kolor{
+#kolor {
     background: linear-gradient(#00ccff, #d500f9);
     width: 100px;
     height: 600px;
@@ -45,21 +58,26 @@ body{
     inset: 5px;
 }
 
-#wnetrze{
+#wnetrze {
     position: absolute;
     background-color: blanchedalmond;
     height: 190px;
-    width: 490px;   
+    width: 490px;
     border-radius: 10px;
 }
 
 @keyframes rot {
-    from{rotate: 0deg;}
-    to{rotate: 360deg;}
+    from {
+        rotate: 0deg;
+    }
+
+    to {
+        rotate: 360deg;
+    }
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-#zaznaczenie{
+#zaznaczenie {
     display: flex;
     width: 100px;
     height: 100px;
@@ -70,39 +88,61 @@ body{
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-#swiec{
+#swiec {
     width: 100px;
     height: 100px;
     margin-top: 50px;
     animation: rozz 3s linear infinite;
-    background:#00ccff;
+    background: #00ccff;
 }
 
-@keyframes rozz{
-    0%{box-shadow: 0px 0px 5px #f90000;}
-    50%{box-shadow: 0px 0px 40px #f90000;}
-    100%{box-shadow: 0px 0px 5px #f90000;}
+@keyframes rozz {
+    0% {
+        box-shadow: 0px 0px 5px #f90000;
+    }
+
+    50% {
+        box-shadow: 0px 0px 40px #f90000;
+    }
+
+    100% {
+        box-shadow: 0px 0px 5px #f90000;
+    }
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
 @media screen and (max-width:2000px) {
-    #media{background-color: aquamarine;}
+    #media {
+        background-color: aquamarine;
+    }
 }
-@media screen and (max-width:1750px){
-    #media{background-color: crimson;}
+
+@media screen and (max-width:1750px) {
+    #media {
+        background-color: crimson;
+    }
 }
-@media screen and (max-width:1500px){
-    #media{background-color: darkorchid;}
+
+@media screen and (max-width:1500px) {
+    #media {
+        background-color: darkorchid;
+    }
 }
-@media screen and (max-width:1250px){
-    #media{background-color: crimson;}
+
+@media screen and (max-width:1250px) {
+    #media {
+        background-color: crimson;
+    }
 }
-@media screen and (max-width:1000px){
-    #media{background-color: aquamarine;}
+
+@media screen and (max-width:1000px) {
+    #media {
+        background-color: aquamarine;
+    }
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-#maska{
+#maska {
     background-image: url(https://c4.wallpaperflare.com/wallpaper/108/140/869/digital-digital-art-artwork-fantasy-art-drawing-hd-wallpaper-thumb.jpg);
     mask-image: linear-gradient(white, transparent);
     border: 1px solid lime;
@@ -110,59 +150,69 @@ body{
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-#cursor{
+#cursor {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.kursory{
+.kursory {
     height: 98px;
     width: 98px;
     border: 1px solid black;
 }
 
-#grab{
+#grab {
     cursor: grab;
 }
-#move{
-    cursor:move
+
+#move {
+    cursor: move
 }
-#none{
+
+#none {
     cursor: none;
 }
-#pointer{
+
+#pointer {
     cursor: pointer;
 }
-#progress{
+
+#progress {
     cursor: progress;
 }
-#grabbing{
+
+#grabbing {
     cursor: grabbing;
 }
-#wait{
+
+#wait {
     cursor: wait;
 }
-#crosshair{
+
+#crosshair {
     cursor: crosshair;
 }
-#zoom_in{
+
+#zoom_in {
     cursor: zoom-in;
 }
-#zoom_out{
+
+#zoom_out {
     cursor: zoom-out;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-a:hover{
+a:hover {
     color: orange;
 }
-a{
+
+a {
     color: blue;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-#ress{
+#ress {
     resize: both;
     overflow: auto;
     flex-direction: column;
@@ -171,14 +221,14 @@ a{
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-#columns{
+#columns {
     column-count: 3;
     column-rule: 2px dashed darkblue;
     display: block;
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
-#offset{
+#offset {
     display: block;
     background-color: #d500f9;
     border-radius: 4px 10px 10px 4px;
@@ -188,9 +238,14 @@ a{
     animation: ruch 5s infinite linear;
 }
 
-@keyframes ruch{
-    0%{offset-distance: 0%;}
-    100%{offset-distance: 100%;}
+@keyframes ruch {
+    0% {
+        offset-distance: 0%;
+    }
+
+    100% {
+        offset-distance: 100%;
+    }
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */

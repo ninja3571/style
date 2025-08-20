@@ -249,3 +249,53 @@ a {
 }
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------ */
+
+/* lato 2025 */
+
+#arrTop {
+    width: 180%;
+    height: 45%;
+    background: linear-gradient(45deg, lime, blue, lime, blue, lime, blue);
+    animation: arrTop 3s infinite linear;
+    position: relative;
+    z-index: 10;
+}
+
+@keyframes arrTop {
+    0% {
+        left: -70%;
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+#arrBot {
+    width: 180%;
+    height: 45%;
+    background: linear-gradient(-45deg, blue, lime, blue, lime, blue, lime);
+    animation: arrBot 3s infinite linear;
+    position: relative;
+    z-index: 10;
+
+}
+
+@keyframes arrBot {
+    0% {
+        left: -70%;
+    }
+
+    100% {
+        left: 10%;
+    }
+}
+
+#arrRama {
+    position: absolute;
+    background: transparent;
+    border: 55px solid blanchedalmond;
+    width: 80%;
+    height: 60%;
+    z-index: 100;
+}
